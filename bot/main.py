@@ -2,10 +2,10 @@ import multiprocessing
 import os
 
 def run_scheduler():
-    os.system("python3 bot/scheduler.py")
+    os.system("python3 scheduler.py")
 
 def run_telegram_bot():
-    os.system("python3 bot/telegram_bot.py")
+    os.system("python3 telegram_bot.py")
 
 if __name__ == "__main__":
     process1 = multiprocessing.Process(target=run_scheduler)
