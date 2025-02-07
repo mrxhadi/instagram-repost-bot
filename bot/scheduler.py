@@ -17,9 +17,8 @@ def job():
     video_id, video_ext = download_instagram_reel()
     video_path = f"downloads/{video_id}.{video_ext}"
     
-    caption = "🔥 Viral funny reel of the day! 
+    caption = "🔥 Viral funny reel of the day! \n\n#funnyreels #funnymemes #comedyvideos"
 
-#funnyreels #funnymemes #comedyvideos"
     
     print("📤 در حال ارسال پست...")
     upload_to_instagram(video_path, caption)
