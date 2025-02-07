@@ -36,7 +36,10 @@ def upload_to_instagram(video_path):
     time.sleep(10)
 
     # ساخت کپشن با هشتگ‌های جدید
-    caption = f"🔥 Viral funny reel of the day! 
+   caption = """🔥 Viral funny reel of the day!
+
+#funnyreels #funnymemes #comedyvideos
+"""
 
 {' '.join(['#' + tag for tag in HASHTAGS])}"
     caption_box = driver.find_element(By.XPATH, "//textarea")
