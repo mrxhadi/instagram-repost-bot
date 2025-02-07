@@ -1,0 +1,5 @@
+selenium
+yt-dlp
+schedule
+telebot
+flask
